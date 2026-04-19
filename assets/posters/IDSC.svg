@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="诗意守望者">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09101B"/>
+      <stop offset="45%" stop-color="#111B2B"/>
+      <stop offset="100%" stop-color="#090D14"/>
+    </linearGradient>
+    <radialGradient id="halo1" cx="26%" cy="22%" r="56%">
+      <stop offset="0%" stop-color="#6F8BFF" stop-opacity="0.46"/>
+      <stop offset="100%" stop-color="#6F8BFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo2" cx="76%" cy="74%" r="50%">
+      <stop offset="0%" stop-color="#A4F0FF" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#A4F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6F8BFF"/>
+      <stop offset="55%" stop-color="#A4F0FF"/>
+      <stop offset="100%" stop-color="#FFE3B5"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.16)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="blur30" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="blur18" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1144" height="1444" rx="40" fill="none" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="54" y="54" width="1092" height="1392" rx="28" fill="none" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="300" cy="260" r="340" fill="url(#halo1)" filter="url(#blur30)"/>
+  <circle cx="890" cy="1080" r="320" fill="url(#halo2)" filter="url(#blur30)"/>
+  <g><path d="M 80 180 C 260 140, 370 220, 560 180 S 880 140, 1120 200.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 300 C 260 248, 370 352, 560 300 S 880 248, 1120 326.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 430 C 260 366, 370 494, 560 430 S 880 366, 1120 462.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 560 C 260 520, 370 600, 560 560 S 880 520, 1120 580.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 700 C 260 648, 370 752, 560 700 S 880 648, 1120 726.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 860 C 260 796, 370 924, 560 860 S 880 796, 1120 892.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 1030 C 260 990, 370 1070, 560 1030 S 880 990, 1120 1050.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 1180 C 260 1128, 370 1232, 560 1180 S 880 1128, 1120 1206.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 160 120 C 210 360, 110 860, 180 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 320 120 C 370 360, 270 860, 340 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 480 120 C 530 360, 430 860, 500 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 640 120 C 690 360, 590 860, 660 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 800 120 C 850 360, 750 860, 820 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 960 120 C 1010 360, 910 860, 980 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/></g>
+  <g opacity="0.06"><text x="72" y="520" font-size="240" font-weight="800" fill="white" font-family="Inter, Arial, sans-serif" letter-spacing="18">IDSC</text></g>
+  <g><circle cx="1048" cy="1386" r="5" fill="white" fill-opacity="0.48"/>
+<circle cx="1064" cy="330" r="5" fill="#A4F0FF" fill-opacity="0.26"/>
+<circle cx="611" cy="1283" r="5" fill="white" fill-opacity="0.26"/>
+<circle cx="302" cy="442" r="5" fill="#FFE3B5" fill-opacity="0.54"/>
+<circle cx="223" cy="754" r="2" fill="#6F8BFF" fill-opacity="0.53"/>
+<circle cx="588" cy="501" r="2.5" fill="#FFE3B5" fill-opacity="0.54"/>
+<circle cx="87" cy="1337" r="5" fill="#A4F0FF" fill-opacity="0.43"/>
+<circle cx="124" cy="967" r="3" fill="#6F8BFF" fill-opacity="0.47"/>
+<circle cx="1075" cy="1176" r="2.5" fill="#A4F0FF" fill-opacity="0.19"/>
+<circle cx="1008" cy="276" r="4" fill="#6F8BFF" fill-opacity="0.23"/>
+<circle cx="991" cy="130" r="4" fill="white" fill-opacity="0.17"/>
+<circle cx="409" cy="1358" r="4" fill="#A4F0FF" fill-opacity="0.40"/>
+<circle cx="818" cy="814" r="5" fill="#6F8BFF" fill-opacity="0.52"/>
+<circle cx="349" cy="1388" r="3" fill="white" fill-opacity="0.44"/>
+<circle cx="982" cy="221" r="4" fill="#FFE3B5" fill-opacity="0.22"/>
+<circle cx="196" cy="1190" r="4" fill="white" fill-opacity="0.33"/>
+<circle cx="884" cy="1362" r="2" fill="#A4F0FF" fill-opacity="0.54"/>
+<circle cx="248" cy="1188" r="2.5" fill="#6F8BFF" fill-opacity="0.46"/>
+<circle cx="992" cy="918" r="2" fill="#FFE3B5" fill-opacity="0.20"/>
+<circle cx="375" cy="509" r="3" fill="#A4F0FF" fill-opacity="0.25"/>
+<circle cx="728" cy="1022" r="2.5" fill="#6F8BFF" fill-opacity="0.30"/>
+<circle cx="614" cy="330" r="4" fill="#6F8BFF" fill-opacity="0.35"/>
+<circle cx="1037" cy="825" r="3" fill="#FFE3B5" fill-opacity="0.46"/>
+<circle cx="495" cy="127" r="2.5" fill="#A4F0FF" fill-opacity="0.34"/>
+<circle cx="894" cy="152" r="2.5" fill="#A4F0FF" fill-opacity="0.47"/>
+<circle cx="861" cy="919" r="2" fill="#6F8BFF" fill-opacity="0.39"/>
+<circle cx="731" cy="358" r="4" fill="#6F8BFF" fill-opacity="0.42"/>
+<circle cx="187" cy="355" r="2.5" fill="#A4F0FF" fill-opacity="0.17"/>
+<circle cx="692" cy="1265" r="2" fill="#FFE3B5" fill-opacity="0.25"/>
+<circle cx="101" cy="214" r="3" fill="#6F8BFF" fill-opacity="0.21"/>
+<circle cx="292" cy="1410" r="2.5" fill="#FFE3B5" fill-opacity="0.47"/>
+<circle cx="405" cy="558" r="5" fill="#FFE3B5" fill-opacity="0.27"/>
+<circle cx="112" cy="749" r="2" fill="white" fill-opacity="0.37"/>
+<circle cx="606" cy="783" r="4" fill="#FFE3B5" fill-opacity="0.29"/></g>
+  <g opacity="0.85">
+      <g>
+        <rect x="370" y="360" width="468" height="708" rx="38" fill="rgba(255,255,255,0.03)" stroke="url(#accent)" stroke-width="18"/>
+        <path d="M604 360 V1068" stroke="rgba(255,255,255,0.18)" stroke-width="6"/>
+        <path d="M370 734 H838" stroke="rgba(255,255,255,0.18)" stroke-width="6"/>
+        <path d="M486 1046 C486 948, 546 902, 604 902 C662 902, 722 948, 722 1046" fill="none" stroke="#FFE3B5" stroke-width="16"/>
+        <path d="M550 896 L572 848 L594 896 M614 896 L636 848 L658 896" fill="#FFE3B5"/>
+        <path d="M424 404 C452 486, 452 580, 424 660" fill="none" stroke="#A4F0FF" stroke-width="8" stroke-linecap="round"/>
+        <path d="M784 404 C756 486, 756 580, 784 660" fill="none" stroke="#A4F0FF" stroke-width="8" stroke-linecap="round"/>
+        <circle cx="604" cy="734" r="22" fill="url(#accent)"/>
+      </g></g>
+  <g opacity="0.9">
+    <rect x="84" y="92" width="220" height="34" rx="17" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="114" cy="109" r="5" fill="#6F8BFF"/>
+    <circle cx="136" cy="109" r="5" fill="#A4F0FF"/>
+    <circle cx="158" cy="109" r="5" fill="#FFE3B5"/>
+    <text x="186" y="116" font-size="18" fill="rgba(255,255,255,0.72)" font-family="Inter, Arial, sans-serif" letter-spacing="1.2">Y-MAP PROFILE POSTER</text>
+  </g>
+  <g>
+    <rect x="86" y="1284" width="1028" height="116" rx="26" fill="rgba(8,12,18,0.62)" stroke="rgba(255,255,255,0.08)"/>
+    <path d="M118 1320 H1080" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+    <text x="122" y="1362" font-size="46" font-weight="800" fill="white" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif">诗意守望者</text>
+    <text x="122" y="1394" font-size="20" letter-spacing="8" fill="rgba(255,255,255,0.55)" font-family="Inter, Arial, sans-serif">IDSC · YOUTH MISSION &amp; ATTITUDE PROFILE</text>
+  </g>
+  <path d="M 40 280 L 320 -20" stroke="rgba(255,255,255,0.06)" stroke-width="50"/>
+</svg>

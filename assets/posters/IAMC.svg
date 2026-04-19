@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="乘风布道师">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09101B"/>
+      <stop offset="45%" stop-color="#111B2B"/>
+      <stop offset="100%" stop-color="#090D14"/>
+    </linearGradient>
+    <radialGradient id="halo1" cx="26%" cy="22%" r="56%">
+      <stop offset="0%" stop-color="#17C7FF" stop-opacity="0.46"/>
+      <stop offset="100%" stop-color="#17C7FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo2" cx="76%" cy="74%" r="50%">
+      <stop offset="0%" stop-color="#43E6A6" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#43E6A6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17C7FF"/>
+      <stop offset="55%" stop-color="#43E6A6"/>
+      <stop offset="100%" stop-color="#F2FFF9"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.16)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="blur30" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="blur18" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1144" height="1444" rx="40" fill="none" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="54" y="54" width="1092" height="1392" rx="28" fill="none" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="300" cy="260" r="340" fill="url(#halo1)" filter="url(#blur30)"/>
+  <circle cx="890" cy="1080" r="320" fill="url(#halo2)" filter="url(#blur30)"/>
+  <g><path d="M 80 180 C 260 140, 370 220, 560 180 S 880 140, 1120 200.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 300 C 260 248, 370 352, 560 300 S 880 248, 1120 326.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 430 C 260 366, 370 494, 560 430 S 880 366, 1120 462.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 560 C 260 520, 370 600, 560 560 S 880 520, 1120 580.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 700 C 260 648, 370 752, 560 700 S 880 648, 1120 726.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 860 C 260 796, 370 924, 560 860 S 880 796, 1120 892.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 1030 C 260 990, 370 1070, 560 1030 S 880 990, 1120 1050.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 1180 C 260 1128, 370 1232, 560 1180 S 880 1128, 1120 1206.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 160 120 C 210 360, 110 860, 180 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 320 120 C 370 360, 270 860, 340 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 480 120 C 530 360, 430 860, 500 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 640 120 C 690 360, 590 860, 660 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 800 120 C 850 360, 750 860, 820 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 960 120 C 1010 360, 910 860, 980 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/></g>
+  <g opacity="0.06"><text x="72" y="520" font-size="240" font-weight="800" fill="white" font-family="Inter, Arial, sans-serif" letter-spacing="18">IAMC</text></g>
+  <g><circle cx="160" cy="1072" r="4" fill="#43E6A6" fill-opacity="0.54"/>
+<circle cx="334" cy="199" r="2.5" fill="#F2FFF9" fill-opacity="0.28"/>
+<circle cx="1047" cy="1264" r="4" fill="white" fill-opacity="0.41"/>
+<circle cx="365" cy="1262" r="3" fill="#F2FFF9" fill-opacity="0.22"/>
+<circle cx="868" cy="793" r="4" fill="#F2FFF9" fill-opacity="0.31"/>
+<circle cx="930" cy="1078" r="3" fill="white" fill-opacity="0.48"/>
+<circle cx="404" cy="272" r="3" fill="#F2FFF9" fill-opacity="0.43"/>
+<circle cx="747" cy="746" r="2.5" fill="#F2FFF9" fill-opacity="0.35"/>
+<circle cx="599" cy="1362" r="2.5" fill="#F2FFF9" fill-opacity="0.24"/>
+<circle cx="992" cy="746" r="3" fill="#17C7FF" fill-opacity="0.49"/>
+<circle cx="162" cy="1187" r="4" fill="white" fill-opacity="0.45"/>
+<circle cx="335" cy="951" r="3" fill="#F2FFF9" fill-opacity="0.53"/>
+<circle cx="334" cy="154" r="4" fill="#F2FFF9" fill-opacity="0.34"/>
+<circle cx="273" cy="473" r="2" fill="#17C7FF" fill-opacity="0.50"/>
+<circle cx="682" cy="1037" r="3" fill="white" fill-opacity="0.25"/>
+<circle cx="546" cy="271" r="4" fill="#43E6A6" fill-opacity="0.37"/>
+<circle cx="1106" cy="1298" r="2" fill="#17C7FF" fill-opacity="0.37"/>
+<circle cx="696" cy="882" r="3" fill="#17C7FF" fill-opacity="0.47"/>
+<circle cx="271" cy="1084" r="2" fill="white" fill-opacity="0.32"/>
+<circle cx="1109" cy="1043" r="2.5" fill="#F2FFF9" fill-opacity="0.42"/>
+<circle cx="719" cy="1173" r="4" fill="#F2FFF9" fill-opacity="0.25"/>
+<circle cx="1099" cy="330" r="5" fill="#43E6A6" fill-opacity="0.18"/>
+<circle cx="127" cy="656" r="3" fill="#17C7FF" fill-opacity="0.43"/>
+<circle cx="643" cy="366" r="2.5" fill="#F2FFF9" fill-opacity="0.49"/>
+<circle cx="710" cy="1026" r="2" fill="#43E6A6" fill-opacity="0.31"/>
+<circle cx="163" cy="917" r="5" fill="#17C7FF" fill-opacity="0.42"/>
+<circle cx="1110" cy="605" r="2" fill="#17C7FF" fill-opacity="0.36"/>
+<circle cx="146" cy="233" r="3" fill="white" fill-opacity="0.28"/>
+<circle cx="340" cy="1320" r="4" fill="#F2FFF9" fill-opacity="0.47"/>
+<circle cx="293" cy="422" r="2" fill="#F2FFF9" fill-opacity="0.28"/>
+<circle cx="809" cy="294" r="2.5" fill="#17C7FF" fill-opacity="0.30"/>
+<circle cx="381" cy="1065" r="4" fill="#F2FFF9" fill-opacity="0.53"/>
+<circle cx="435" cy="398" r="2" fill="white" fill-opacity="0.39"/>
+<circle cx="979" cy="1317" r="2.5" fill="white" fill-opacity="0.53"/></g>
+  <g opacity="0.85">
+      <g>
+        <path d="M306 964 Q 604 626 902 964" fill="none" stroke="url(#accent)" stroke-width="20"/>
+        <path d="M604 306 V824" stroke="#F2FFF9" stroke-width="14"/>
+        <circle cx="604" cy="270" r="40" fill="url(#accent)"/>
+        <path d="M604 270 m -130 0 a 130 130 0 1 0 260 0 a 130 130 0 1 0 -260 0" fill="none" stroke="#43E6A6" stroke-width="12"/>
+        <path d="M604 270 m -220 0 a 220 220 0 1 0 440 0 a 220 220 0 1 0 -440 0" fill="none" stroke="#17C7FF" stroke-width="8" stroke-opacity="0.85"/>
+        <circle cx="388" cy="866" r="22" fill="#17C7FF"/><circle cx="820" cy="866" r="22" fill="#43E6A6"/><circle cx="604" cy="690" r="20" fill="white" fill-opacity="0.84"/>
+        <path d="M388 866 L604 690 L820 866" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="5"/>
+      </g></g>
+  <g opacity="0.9">
+    <rect x="84" y="92" width="220" height="34" rx="17" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="114" cy="109" r="5" fill="#17C7FF"/>
+    <circle cx="136" cy="109" r="5" fill="#43E6A6"/>
+    <circle cx="158" cy="109" r="5" fill="#F2FFF9"/>
+    <text x="186" y="116" font-size="18" fill="rgba(255,255,255,0.72)" font-family="Inter, Arial, sans-serif" letter-spacing="1.2">Y-MAP PROFILE POSTER</text>
+  </g>
+  <g>
+    <rect x="86" y="1284" width="1028" height="116" rx="26" fill="rgba(8,12,18,0.62)" stroke="rgba(255,255,255,0.08)"/>
+    <path d="M118 1320 H1080" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+    <text x="122" y="1362" font-size="46" font-weight="800" fill="white" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif">乘风布道师</text>
+    <text x="122" y="1394" font-size="20" letter-spacing="8" fill="rgba(255,255,255,0.55)" font-family="Inter, Arial, sans-serif">IAMC · YOUTH MISSION &amp; ATTITUDE PROFILE</text>
+  </g>
+  <path d="M 40 280 L 320 -20" stroke="rgba(255,255,255,0.06)" stroke-width="50"/>
+</svg>

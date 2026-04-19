@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="破风浪游者">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09101B"/>
+      <stop offset="45%" stop-color="#111B2B"/>
+      <stop offset="100%" stop-color="#090D14"/>
+    </linearGradient>
+    <radialGradient id="halo1" cx="26%" cy="22%" r="56%">
+      <stop offset="0%" stop-color="#1BBEFF" stop-opacity="0.46"/>
+      <stop offset="100%" stop-color="#1BBEFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo2" cx="76%" cy="74%" r="50%">
+      <stop offset="0%" stop-color="#58F0D4" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#58F0D4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1BBEFF"/>
+      <stop offset="55%" stop-color="#58F0D4"/>
+      <stop offset="100%" stop-color="#DFFFE8"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.16)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="blur30" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="blur18" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1144" height="1444" rx="40" fill="none" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="54" y="54" width="1092" height="1392" rx="28" fill="none" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="300" cy="260" r="340" fill="url(#halo1)" filter="url(#blur30)"/>
+  <circle cx="890" cy="1080" r="320" fill="url(#halo2)" filter="url(#blur30)"/>
+  <g><path d="M 80 180 C 260 140, 370 220, 560 180 S 880 140, 1120 200.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 300 C 260 248, 370 352, 560 300 S 880 248, 1120 326.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 430 C 260 366, 370 494, 560 430 S 880 366, 1120 462.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 560 C 260 520, 370 600, 560 560 S 880 520, 1120 580.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 700 C 260 648, 370 752, 560 700 S 880 648, 1120 726.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 860 C 260 796, 370 924, 560 860 S 880 796, 1120 892.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 1030 C 260 990, 370 1070, 560 1030 S 880 990, 1120 1050.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 1180 C 260 1128, 370 1232, 560 1180 S 880 1128, 1120 1206.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 160 120 C 210 360, 110 860, 180 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 320 120 C 370 360, 270 860, 340 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 480 120 C 530 360, 430 860, 500 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 640 120 C 690 360, 590 860, 660 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 800 120 C 850 360, 750 860, 820 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 960 120 C 1010 360, 910 860, 980 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/></g>
+  <g opacity="0.06"><text x="72" y="520" font-size="240" font-weight="800" fill="white" font-family="Inter, Arial, sans-serif" letter-spacing="18">IAMP</text></g>
+  <g><circle cx="657" cy="1052" r="3" fill="white" fill-opacity="0.47"/>
+<circle cx="234" cy="618" r="2.5" fill="#1BBEFF" fill-opacity="0.44"/>
+<circle cx="510" cy="543" r="3" fill="#1BBEFF" fill-opacity="0.25"/>
+<circle cx="537" cy="911" r="4" fill="white" fill-opacity="0.49"/>
+<circle cx="129" cy="193" r="5" fill="#DFFFE8" fill-opacity="0.42"/>
+<circle cx="637" cy="535" r="2" fill="#1BBEFF" fill-opacity="0.52"/>
+<circle cx="553" cy="278" r="5" fill="#DFFFE8" fill-opacity="0.53"/>
+<circle cx="683" cy="557" r="2.5" fill="white" fill-opacity="0.16"/>
+<circle cx="362" cy="506" r="3" fill="white" fill-opacity="0.16"/>
+<circle cx="570" cy="656" r="5" fill="white" fill-opacity="0.27"/>
+<circle cx="91" cy="1232" r="5" fill="#1BBEFF" fill-opacity="0.45"/>
+<circle cx="576" cy="235" r="3" fill="#58F0D4" fill-opacity="0.18"/>
+<circle cx="1077" cy="708" r="2.5" fill="#1BBEFF" fill-opacity="0.46"/>
+<circle cx="189" cy="511" r="5" fill="#1BBEFF" fill-opacity="0.20"/>
+<circle cx="941" cy="694" r="3" fill="#58F0D4" fill-opacity="0.16"/>
+<circle cx="995" cy="1148" r="2.5" fill="white" fill-opacity="0.47"/>
+<circle cx="117" cy="376" r="2.5" fill="white" fill-opacity="0.26"/>
+<circle cx="262" cy="483" r="3" fill="#DFFFE8" fill-opacity="0.39"/>
+<circle cx="340" cy="901" r="4" fill="#DFFFE8" fill-opacity="0.28"/>
+<circle cx="592" cy="1224" r="2.5" fill="#DFFFE8" fill-opacity="0.44"/>
+<circle cx="724" cy="299" r="2" fill="#58F0D4" fill-opacity="0.46"/>
+<circle cx="498" cy="465" r="4" fill="white" fill-opacity="0.37"/>
+<circle cx="1063" cy="338" r="2.5" fill="#1BBEFF" fill-opacity="0.37"/>
+<circle cx="368" cy="725" r="2.5" fill="#DFFFE8" fill-opacity="0.36"/>
+<circle cx="220" cy="670" r="3" fill="white" fill-opacity="0.32"/>
+<circle cx="536" cy="946" r="2" fill="#1BBEFF" fill-opacity="0.54"/>
+<circle cx="232" cy="317" r="2" fill="#1BBEFF" fill-opacity="0.28"/>
+<circle cx="577" cy="215" r="2" fill="#DFFFE8" fill-opacity="0.31"/>
+<circle cx="160" cy="1390" r="3" fill="white" fill-opacity="0.35"/>
+<circle cx="652" cy="431" r="2.5" fill="#DFFFE8" fill-opacity="0.16"/>
+<circle cx="1116" cy="219" r="2.5" fill="white" fill-opacity="0.27"/>
+<circle cx="1035" cy="413" r="4" fill="#1BBEFF" fill-opacity="0.27"/>
+<circle cx="509" cy="1397" r="3" fill="#DFFFE8" fill-opacity="0.49"/>
+<circle cx="1020" cy="1018" r="2.5" fill="#1BBEFF" fill-opacity="0.31"/></g>
+  <g opacity="0.85">
+      <g>
+        <path d="M334 1044 C 446 936, 556 850, 758 798" fill="none" stroke="#DFFFE8" stroke-width="12" stroke-linecap="round"/>
+        <path d="M604 352 V1044" stroke="url(#accent)" stroke-width="14"/>
+        <path d="M604 412 C464 548, 448 702, 604 802 Z" fill="url(#accent)" fill-opacity="0.76"/>
+        <path d="M604 512 C736 596, 782 732, 604 902 Z" fill="rgba(255,255,255,0.04)" stroke="#58F0D4" stroke-width="16"/>
+        <path d="M258 640 C 372 600, 464 606, 550 640" fill="none" stroke="#1BBEFF" stroke-width="10" stroke-linecap="round"/>
+        <path d="M230 746 C 386 692, 510 700, 660 746" fill="none" stroke="#58F0D4" stroke-width="10" stroke-linecap="round"/>
+        <path d="M210 854 C 430 794, 628 816, 840 888" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="604" cy="804" r="22" fill="white" fill-opacity="0.85"/>
+      </g></g>
+  <g opacity="0.9">
+    <rect x="84" y="92" width="220" height="34" rx="17" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="114" cy="109" r="5" fill="#1BBEFF"/>
+    <circle cx="136" cy="109" r="5" fill="#58F0D4"/>
+    <circle cx="158" cy="109" r="5" fill="#DFFFE8"/>
+    <text x="186" y="116" font-size="18" fill="rgba(255,255,255,0.72)" font-family="Inter, Arial, sans-serif" letter-spacing="1.2">Y-MAP PROFILE POSTER</text>
+  </g>
+  <g>
+    <rect x="86" y="1284" width="1028" height="116" rx="26" fill="rgba(8,12,18,0.62)" stroke="rgba(255,255,255,0.08)"/>
+    <path d="M118 1320 H1080" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+    <text x="122" y="1362" font-size="46" font-weight="800" fill="white" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif">破风浪游者</text>
+    <text x="122" y="1394" font-size="20" letter-spacing="8" fill="rgba(255,255,255,0.55)" font-family="Inter, Arial, sans-serif">IAMP · YOUTH MISSION &amp; ATTITUDE PROFILE</text>
+  </g>
+  <path d="M 40 280 L 320 -20" stroke="rgba(255,255,255,0.06)" stroke-width="50"/>
+</svg>

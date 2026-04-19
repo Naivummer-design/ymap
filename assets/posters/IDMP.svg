@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="孤星拓荒者">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09101B"/>
+      <stop offset="45%" stop-color="#111B2B"/>
+      <stop offset="100%" stop-color="#090D14"/>
+    </linearGradient>
+    <radialGradient id="halo1" cx="26%" cy="22%" r="56%">
+      <stop offset="0%" stop-color="#4776FF" stop-opacity="0.46"/>
+      <stop offset="100%" stop-color="#4776FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo2" cx="76%" cy="74%" r="50%">
+      <stop offset="0%" stop-color="#34D8FF" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#34D8FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4776FF"/>
+      <stop offset="55%" stop-color="#34D8FF"/>
+      <stop offset="100%" stop-color="#B8FFD8"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.16)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="blur30" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="blur18" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="1500" rx="56" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1144" height="1444" rx="40" fill="none" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="54" y="54" width="1092" height="1392" rx="28" fill="none" stroke="rgba(255,255,255,0.06)"/>
+  <circle cx="300" cy="260" r="340" fill="url(#halo1)" filter="url(#blur30)"/>
+  <circle cx="890" cy="1080" r="320" fill="url(#halo2)" filter="url(#blur30)"/>
+  <g><path d="M 80 180 C 260 140, 370 220, 560 180 S 880 140, 1120 200.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 300 C 260 248, 370 352, 560 300 S 880 248, 1120 326.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 430 C 260 366, 370 494, 560 430 S 880 366, 1120 462.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 560 C 260 520, 370 600, 560 560 S 880 520, 1120 580.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 700 C 260 648, 370 752, 560 700 S 880 648, 1120 726.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 860 C 260 796, 370 924, 560 860 S 880 796, 1120 892.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 1030 C 260 990, 370 1070, 560 1030 S 880 990, 1120 1050.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 80 1180 C 260 1128, 370 1232, 560 1180 S 880 1128, 1120 1206.0" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.4"/>
+<path d="M 160 120 C 210 360, 110 860, 180 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 320 120 C 370 360, 270 860, 340 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 480 120 C 530 360, 430 860, 500 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 640 120 C 690 360, 590 860, 660 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 800 120 C 850 360, 750 860, 820 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/>
+<path d="M 960 120 C 1010 360, 910 860, 980 1380" fill="none" stroke="rgba(255,255,255,0.035)" stroke-width="1"/></g>
+  <g opacity="0.06"><text x="72" y="520" font-size="240" font-weight="800" fill="white" font-family="Inter, Arial, sans-serif" letter-spacing="18">IDMP</text></g>
+  <g><circle cx="501" cy="1225" r="5" fill="#34D8FF" fill-opacity="0.22"/>
+<circle cx="729" cy="1027" r="4" fill="white" fill-opacity="0.50"/>
+<circle cx="106" cy="651" r="3" fill="#34D8FF" fill-opacity="0.39"/>
+<circle cx="112" cy="1050" r="5" fill="white" fill-opacity="0.46"/>
+<circle cx="1084" cy="1141" r="5" fill="#4776FF" fill-opacity="0.52"/>
+<circle cx="158" cy="1342" r="2" fill="#34D8FF" fill-opacity="0.22"/>
+<circle cx="727" cy="854" r="5" fill="#34D8FF" fill-opacity="0.39"/>
+<circle cx="417" cy="1051" r="2.5" fill="#B8FFD8" fill-opacity="0.41"/>
+<circle cx="872" cy="481" r="2.5" fill="#B8FFD8" fill-opacity="0.23"/>
+<circle cx="563" cy="91" r="4" fill="#B8FFD8" fill-opacity="0.17"/>
+<circle cx="850" cy="820" r="4" fill="#34D8FF" fill-opacity="0.49"/>
+<circle cx="1057" cy="553" r="2" fill="#34D8FF" fill-opacity="0.23"/>
+<circle cx="911" cy="571" r="3" fill="#B8FFD8" fill-opacity="0.17"/>
+<circle cx="984" cy="1200" r="2" fill="white" fill-opacity="0.16"/>
+<circle cx="894" cy="912" r="2" fill="#B8FFD8" fill-opacity="0.54"/>
+<circle cx="916" cy="926" r="3" fill="white" fill-opacity="0.39"/>
+<circle cx="174" cy="471" r="2.5" fill="#34D8FF" fill-opacity="0.15"/>
+<circle cx="547" cy="435" r="3" fill="white" fill-opacity="0.42"/>
+<circle cx="411" cy="487" r="3" fill="white" fill-opacity="0.47"/>
+<circle cx="947" cy="820" r="2" fill="#4776FF" fill-opacity="0.44"/>
+<circle cx="572" cy="888" r="3" fill="#B8FFD8" fill-opacity="0.26"/>
+<circle cx="221" cy="238" r="5" fill="#B8FFD8" fill-opacity="0.46"/>
+<circle cx="807" cy="718" r="5" fill="white" fill-opacity="0.34"/>
+<circle cx="984" cy="498" r="5" fill="#34D8FF" fill-opacity="0.21"/>
+<circle cx="837" cy="148" r="5" fill="#B8FFD8" fill-opacity="0.46"/>
+<circle cx="681" cy="761" r="2.5" fill="#4776FF" fill-opacity="0.44"/>
+<circle cx="315" cy="344" r="3" fill="#4776FF" fill-opacity="0.21"/>
+<circle cx="1103" cy="1147" r="4" fill="#4776FF" fill-opacity="0.30"/>
+<circle cx="683" cy="988" r="2.5" fill="#34D8FF" fill-opacity="0.46"/>
+<circle cx="963" cy="476" r="2.5" fill="#B8FFD8" fill-opacity="0.48"/>
+<circle cx="336" cy="1050" r="4" fill="#34D8FF" fill-opacity="0.38"/>
+<circle cx="411" cy="247" r="3" fill="#34D8FF" fill-opacity="0.29"/>
+<circle cx="373" cy="536" r="3" fill="#4776FF" fill-opacity="0.36"/>
+<circle cx="839" cy="765" r="5" fill="#4776FF" fill-opacity="0.22"/></g>
+  <g opacity="0.85">
+      <g>
+        <path d="M240 1088 C 380 954, 456 828, 590 760 C 710 700, 790 542, 920 328" fill="none" stroke="url(#accent)" stroke-width="16" stroke-linecap="round"/>
+        <path d="M290 1114 C 390 1048, 470 968, 556 856" fill="none" stroke="#B8FFD8" stroke-opacity="0.7" stroke-width="8" stroke-linecap="round"/>
+        <g transform="translate(0 10)">
+          <polygon points="604,272 642,382 756,386 666,456 694,570 604,508 514,570 542,456 452,386 566,382" fill="none" stroke="url(#accent)" stroke-width="18"/>
+          <polygon points="604,330 630,400 704,404 645,454 663,526 604,486 545,526 563,454 504,404 578,400" fill="rgba(255,255,255,0.05)" stroke="#34D8FF" stroke-width="6"/>
+        </g>
+        <circle cx="604" cy="748" r="176" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="3"/>
+        <circle cx="604" cy="748" r="112" fill="none" stroke="#B8FFD8" stroke-opacity="0.45" stroke-width="10"/>
+        <path d="M316 1168 Q 468 1020 604 1000 Q 740 1020 892 1168" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="4"/>
+        <circle cx="604" cy="748" r="26" fill="url(#accent)"/>
+      </g></g>
+  <g opacity="0.9">
+    <rect x="84" y="92" width="220" height="34" rx="17" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="114" cy="109" r="5" fill="#4776FF"/>
+    <circle cx="136" cy="109" r="5" fill="#34D8FF"/>
+    <circle cx="158" cy="109" r="5" fill="#B8FFD8"/>
+    <text x="186" y="116" font-size="18" fill="rgba(255,255,255,0.72)" font-family="Inter, Arial, sans-serif" letter-spacing="1.2">Y-MAP PROFILE POSTER</text>
+  </g>
+  <g>
+    <rect x="86" y="1284" width="1028" height="116" rx="26" fill="rgba(8,12,18,0.62)" stroke="rgba(255,255,255,0.08)"/>
+    <path d="M118 1320 H1080" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.7"/>
+    <text x="122" y="1362" font-size="46" font-weight="800" fill="white" font-family="Inter, PingFang SC, Microsoft YaHei, Arial, sans-serif">孤星拓荒者</text>
+    <text x="122" y="1394" font-size="20" letter-spacing="8" fill="rgba(255,255,255,0.55)" font-family="Inter, Arial, sans-serif">IDMP · YOUTH MISSION &amp; ATTITUDE PROFILE</text>
+  </g>
+  <path d="M 40 280 L 320 -20" stroke="rgba(255,255,255,0.06)" stroke-width="50"/>
+</svg>
