@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Y-MAP 青年志向罗盘</title>
+  <meta name="description" content="Y-MAP (Youth Mission & Attitude Profile) 青年志向罗盘" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="brand-wrap">
+        <div class="brand-mark">Y-MAP</div>
+        <div class="brand-sub">Youth Mission &amp; Attitude Profile</div>
+      </div>
+      <div class="site-badge">Interactive Research Prototype</div>
+    </header>
+
+    <main class="main-stage">
+      <section id="welcomeView" class="view is-visible is-active" aria-labelledby="heroTitle">
+        <div class="panel hero-panel">
+          <div class="hero-copy">
+            <span class="eyebrow">青年志向罗盘</span>
+            <h1 id="heroTitle" class="hero-title">在拥挤与失速之间，找到你真正的前进方式。</h1>
+            <p class="hero-desc">
+              这是一份关于当代大学生人生驱动力、行动风格与生存策略的交互画像测试。它不评价“谁更优秀”，只试图帮你看见：你究竟为何前行，又会以什么样的姿态，抵达想去的地方。
+            </p>
+
+            <div class="hero-points">
+              <div class="hero-point">
+                <span class="point-number">16</span>
+                <span class="point-label">个情境问题</span>
+              </div>
+              <div class="hero-point">
+                <span class="point-number">5</span>
+                <span class="point-label">档倾向选择</span>
+              </div>
+              <div class="hero-point">
+                <span class="point-number">16</span>
+                <span class="point-label">种人格画像</span>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <button id="startBtn" class="btn btn-primary" type="button">开始测试</button>
+              <p class="hero-tip">建议按第一直觉作答。你不需要证明什么，只需要诚实地选择。</p>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-ring ring-1"></div>
+            <div class="hero-ring ring-2"></div>
+            <div class="hero-ring ring-3"></div>
+            <div class="hero-core"></div>
+            <div class="hero-line line-1"></div>
+            <div class="hero-line line-2"></div>
+            <div class="hero-line line-3"></div>
+            <div class="hero-card card-a"></div>
+            <div class="hero-card card-b"></div>
+            <div class="hero-card card-c"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="quizView" class="view" aria-labelledby="questionText">
+        <div class="panel quiz-panel">
+          <div class="quiz-topbar">
+            <div class="quiz-progress-meta">
+              <span id="questionCounter" class="quiz-counter">第 1 题 / 共 16 题</span>
+              <span id="progressText" class="quiz-percent">0%</span>
+            </div>
+            <div class="progress-track" aria-label="答题进度">
+              <span id="progressFill" class="progress-fill"></span>
+            </div>
+          </div>
+
+          <div class="question-stage">
+            <span id="questionIndexBadge" class="question-index">Q01</span>
+            <h2 id="questionText" class="question-title"></h2>
+
+            <div class="question-dual">
+              <article class="side-card side-a">
+                <div class="side-label">A 面</div>
+                <p id="leftPrompt" class="side-text"></p>
+              </article>
+              <div class="dual-divider">⇄</div>
+              <article class="side-card side-b">
+                <div class="side-label">B 面</div>
+                <p id="rightPrompt" class="side-text"></p>
+              </article>
+            </div>
+
+            <div id="optionsContainer" class="options-list" role="group" aria-label="答题选项"></div>
+          </div>
+
+          <div class="quiz-actions">
+            <button id="prevBtn" class="btn btn-secondary" type="button">上一题</button>
+            <button id="restartInlineBtn" class="btn btn-ghost" type="button">重新开始</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="resultView" class="view" aria-labelledby="resultTitle">
+        <div class="panel result-panel">
+          <div class="result-head">
+            <span class="eyebrow">测试结果</span>
+            <span id="resultCode" class="result-code">IDMP</span>
+          </div>
+
+          <div class="result-layout">
+            <div class="result-art-panel">
+              <img id="resultArtwork" class="result-artwork" alt="人格结果艺术海报" />
+            </div>
+
+            <div class="result-copy-panel">
+              <h2 id="resultTitle" class="result-title">【孤星拓荒者】</h2>
+              <p id="resultPortrait" class="result-portrait"></p>
+
+              <div class="echo-box">
+                <div class="echo-label">时代回音</div>
+                <p id="resultEcho" class="echo-text"></p>
+              </div>
+
+              <div class="result-actions">
+                <button id="copyBtn" class="btn btn-primary" type="button">复制结果文案</button>
+                <button id="restartBtn" class="btn btn-secondary" type="button">重新测试</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
