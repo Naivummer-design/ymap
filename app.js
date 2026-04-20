@@ -1,3 +1,7 @@
+const SUPABASE_URL = 'https://uefpngzwlqjcztgttuyr.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_1uzYJXsQhc6l38Whvau8fA_fmNvmyGq';
+const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
 const OPTIONS = [
   {
     value: 2,
@@ -144,82 +148,82 @@ const QUESTIONS = [
 function createProfiles() {
   return {
     IDMP: {
-      title: '【IDMP-孤星拓荒者】',
+      title: '【孤星拓荒者】',
       portrait: '当周围人都在为简历上多写一段经历而焦虑时，他们更愿意在图书馆最深处的角落，为了一个看似“冷门”但能触及社会痛点的课题熬夜查阅文献。他们对随波逐流的同质化竞争感到疲惫，宁愿走出舒适区，从零开始搭建一个公益倡议或校园互助平台。在他们眼里，比起在拥挤的赛道里争抢，那些无人问津的旷野更值得倾注热血与长期的坚守。',
       echo: '他们是时代最纯粹的探路者，用不计回报的赤诚，为停滞的齿轮寻找新的转机。'
     },
     IDMC: {
-      title: '【IDMC-执剑卫道士】',
+      title: '【执剑卫道士】',
       portrait: '他们是通关校园评价体系的满级玩家，奖学金与高绩点是他们的常态。但这并非出于盲目的内卷，而是他们深知：只有在既定规则中站上高点，才能拥有更大的话语权去改变不合理的地方。他们能在繁杂的专业大作业中死磕每一个细节，用一种近乎苦行僧般的坚韧，把自身的实力打磨到极致，默默积蓄着推动社会向善的力量。',
       echo: '在秩序中做到极致，他们是这个时代最锐利且最稳固的变革基石。'
     },
     IDSP: {
-      title: '【IDSP-纯粹筑梦师】',
+      title: '【纯粹筑梦师】',
       portrait: '他们对外界的喧嚣有着天然的屏蔽力。比起在各种社团和活动中疲于奔命，他们更愿意把大把的时间投入到一份个人的纯粹热爱中——也许是长期运营一个不温不火却充满温度的个人博客，或是打磨一件只为悦己的独立作品。他们甘愿坐冷板凳，在属于自己的精神自留地里深耕，用绝对的专注力抵抗着同侪压力，搭建起一座只对自己负责的精神灯塔。',
       echo: '他们用不被打扰的专注证明了，将个人的精神角落开垦到极致，本身就是一种伟大的创造。'
     },
     IDSC: {
-      title: '【IDSC-诗意守望者】',
+      title: '【诗意守望者】',
       portrait: '他们游刃有余地穿梭在现实的重压与内心的桃花源之间。白天，他们是按部就班、认真完成每一次期末考评的靠谱同学；夜晚，他们则会退回到一个温馨的阅读角，也许脚边还趴着一只慵懒的小猫，沉浸在经典文学或喜爱的音乐中。他们深谙竞争的逻辑并顺应它，但不让其吞噬自己，这一切的努力，只是为了换取在绝对专注中丰盈自我的权利。',
       echo: '在喧嚣的洪流里，他们以高度的自律守住了内心的从容与诗意。'
     },
     IAMP: {
-      title: '【IAMP-破风浪游者】',
+      title: '【破风浪游者】',
       portrait: '敏捷与灵动是他们的代名词。面对僵化的校园活动或陈旧的社会议题，他们最先感到厌倦，也最先行动。他们擅长跨界组合，用极强的行动力将不同专业的同学聚在一起，试图用轻量级、高创意的方式策划一场快闪行动或是一次全新的校园实践。他们拒绝沉闷的长时间内耗，用不断的试错在迷雾中蹚出一条路，为周围带来意想不到的活力。',
       echo: '时代舞台上最灵巧的破局者，用跨界思维为沉闷的环境注入了清新的氧气。'
     },
     IAMC: {
-      title: '【IAMC-乘风布道师】',
+      title: '【乘风布道师】',
       portrait: '他们有着改变周遭的热忱，但更懂得借势而为的智慧。在学生会、社团或各类比赛中，你总能看到他们活跃的身影。他们不钻牛角尖，而是善于整合现有的校园与社会资源，在沟通与协作中如鱼得水。他们尊重体系，并用最聪明的捷径将自己推向舞台中央，进而将自己的积极理念和影响力辐射给更广阔的人群。',
       echo: '现实主义与浪漫情怀的完美平衡，他们是推动团队车轮高效滚动的多面手。'
     },
     IASP: {
-      title: '【IASP-清醒体验家】',
+      title: '【清醒体验家】',
       portrait: '他们的生活是一场不被定义的先锋实验。对于按部就班的升学与就业路径，他们选择轻巧地闪避。这个周末可能在城市的街巷里进行一场漫无目的的 City Walk，下个周末也许就跑去周边体验一种全新的户外运动。他们敏锐、多变，不断打破常规的生活边界，不求普世的“优秀”标签，只为追求那一份极致的生命张力和丰富的人生体验。',
       echo: '他们用五彩斑斓的生命切片，温柔地反抗着这个被单一成功学定义的枯燥世界。'
     },
     IASC: {
-      title: '【IASC-自得逍遥客】',
+      title: '【自得逍遥客】',
       portrait: '他们是规则里的聪明人，懂得用最小的代价换取最大的精神自由。他们能轻松应对各种考核与 DDL，绝不让自己陷入过度内耗的泥沼。那些节省下来的精力，全被用来打理自己充满个性化的小空间，或是探索城市角落里的宝藏店铺。他们追求美好但不偏执，在世俗的框架内把日子过得风生水起，随时随地都能自我充电。',
       echo: '在不确定性中找到了最自洽的活法，他们是庸常生活里的闪光艺术家。'
     },
     RDMP: {
-      title: '【RDMP-重装破阵军】',
+      title: '【重装破阵军】',
       portrait: '他们极其务实，不信空谈，只看重落地。面对激烈的就业环境或行业痛点，他们愿意化身为最硬核的拓荒者。无论是在实验室里成百上千次地验证某个枯燥的数据，还是深入最基础的岗位去寻找真实的反馈，他们用苦行僧般的毅力和极强的现实目标感，试图在传统的红海之外，生生辟出一条能够切实解决问题的崭新路径。',
       echo: '抛弃幻想，直击痛点，他们是凭借过硬实力在这个时代砸出回音的猛士。'
     },
     RDMC: {
-      title: '【RDMC-中流压舱石】',
+      title: '【中流压舱石】',
       portrait: '这是一群让人极度安心的同路人。他们追求确定性与安稳，但也愿意为了这份安稳承担起庞大的责任。考公、考编或是进入成熟的企业核心部门，是他们笃定的方向。他们愿意钻研最枯燥的政策条文或是最繁琐的执行流程。他们把自身的技能点练到扎实无比，用数年如一日的深耕，不声不响地维系着宏大体系的平稳运行。',
       echo: '褪去浮华，他们是支撑起这个庞大社会机器最坚韧、最不可或缺的齿轮。'
     },
     RDSP: {
-      title: '【RDSP-硬核生活家】',
+      title: '【硬核生活家】',
       portrait: '他们对虚无缥缈的宏大叙事不感兴趣，但对打磨属于自己的现实生活有着近乎偏执的追求。为了实现心目中极具品质感的生活状态，他们愿意花费大量的时间去精通某项实用的技能，比如研究理财、自学空间改造或是钻研厨艺。他们在自己开辟的微观领域里深潜，享受着那份扎实的、完全由自己一砖一瓦搭建起来的掌控感。',
       echo: '将日常的碎片打磨成无可替代的质感，他们是忠于自我秩序的现实主义隐士。'
     },
     RDSC: {
-      title: '【RDSC-笃定筑巢人】',
+      title: '【笃定筑巢人】',
       portrait: '他们是最脚踏实地、最不愿制造焦虑的一群人。保研、找一份安稳的工作，他们顺应主流路线、步步为营，愿意付出长期的艰辛，只为换取未来的现世安稳。在他们用心构建的确定性生活里，周末可以理直气壮地完全断联，关掉手机群消息，享受不被打扰的独处时光。他们不求光芒万丈，只求把具体的日子过得妥帖而温润。',
       echo: '拒绝虚耗，拥抱具体，他们用确定的微小幸福抵抗着宏大时代的漂泊感。'
     },
     RAMP: {
-      title: '【RAMP-无界操盘手】',
+      title: '【无界操盘手】',
       portrait: '他们是极度敏锐的现实捕手。在他们眼里，象牙塔内外处处是机遇。他们不会把自己困在死记硬背的考场上，而是凭借极强的嗅觉，用跨界思维和快速行动去捕捉校园市场或社会上的新风口。他们是能把人脉、信息差与实际需求迅速整合并落地的行动派，永远在寻找下一个提高效率或创造现实价值的奇点。',
       echo: '时代浪潮中最具活力的冲浪者，用敏捷的身姿将现实的变局转化为前行的筹码。'
     },
     RAMC: {
-      title: '【RAMC-八面乘浪者】',
+      title: '【八面乘浪者】',
       portrait: '他们是现实评价体系里的满级生存家。目标明确，追求世俗意义上的成功与确定性，并且总能最快找到最优解。他们深谙如何平衡繁重的课业与多份闪光的实习，在各种机会之间灵活腾挪。他们不仅适应规则，更能将规则转化为向上攀登的阶梯，在现实的洪流中游刃有余地实现自我跃升，同时客观上也成为了团队中的高效引擎。',
       echo: '清醒、利落且高效，他们是现代规则下最适应生存、也最能推动执行的范本。'
     },
     RASP: {
-      title: '【RASP-灵巧游牧民】',
+      title: '【灵巧游牧民】',
       portrait: '他们追求高质量的现实生活，但绝不愿被一份死板的工作或计划彻底套牢。他们像游牧民族一样穿梭在不同的圈子和搞钱方式之间。今天探索自媒体变现的新玩法，明天可能就换个赛道搞起灵活的副业。他们极其规避长期的枯燥内耗，用四两拨千斤的聪明才智为自己博得一份自由且富足的物质基础，在未知中享受掌控现实的快感。',
       echo: '用最小阻力路径获取最大的生活享受，他们定义了新时代的轻盈生存方式。'
     },
     RASC: {
-      title: '【RASC-随性微光客】',
+      title: '【随性微光客】',
       portrait: '他们是平凡生活里最容易感到满足的一群人。不抗拒随大流去考几个证，但绝不会把自己的身心逼到崩溃的边缘。他们懂得在顺应既定规则时进行“心理按摩”，在完成必要的打卡和任务后，立刻将灵魂切换回舒适区。一杯奶茶、一顿烧烤、一场搞笑的综艺，他们在微小的确幸中构筑起坚实的心理防线，松弛地走着自己的路。',
       echo: '在内卷与平躺之间找到了完美的黄金分割点，他们是现代社会最温柔的缓冲带。'
     }
@@ -227,6 +231,25 @@ function createProfiles() {
 }
 
 const PROFILES = createProfiles();
+
+const PROFILE_VISUALS = {
+  IDMP: { colors: ['#4d74ff', '#30d5ff', '#9bffcc'], motif: 'starPath' },
+  IDMC: { colors: ['#3458ff', '#7f98ff', '#b6d0ff'], motif: 'swordShield' },
+  IDSP: { colors: ['#6a5cff', '#e88fff', '#ffb4d8'], motif: 'dreamTower' },
+  IDSC: { colors: ['#5b6dff', '#9be7ff', '#ffd7a8'], motif: 'windowCat' },
+  IAMP: { colors: ['#00c2ff', '#4d74ff', '#84ffcc'], motif: 'sailWind' },
+  IAMC: { colors: ['#23c8ff', '#34e0a1', '#dbfff5'], motif: 'broadcastBridge' },
+  IASP: { colors: ['#6dd5ff', '#8affb0', '#fff0a6'], motif: 'compassTrail' },
+  IASC: { colors: ['#5de2d1', '#73a8ff', '#fff4cf'], motif: 'gardenRoom' },
+  RDMP: { colors: ['#ff8a5b', '#ff5f6d', '#ffd166'], motif: 'anvilBeacon' },
+  RDMC: { colors: ['#5c7bff', '#6be0d3', '#f0f4ff'], motif: 'pillarAnchor' },
+  RDSP: { colors: ['#ffb36b', '#ffd36d', '#fff4d3'], motif: 'craftHome' },
+  RDSC: { colors: ['#9bdc8c', '#ffd58b', '#fff9d6'], motif: 'nestHouse' },
+  RAMP: { colors: ['#ff7b7b', '#ffb36b', '#ffe27a'], motif: 'radarGrid' },
+  RAMC: { colors: ['#4d74ff', '#26d59c', '#d8fff5'], motif: 'stepsFlow' },
+  RASP: { colors: ['#ff9a5a', '#ff5db1', '#ffd2a1'], motif: 'kiteRoute' },
+  RASC: { colors: ['#8acbff', '#b9b3ff', '#ffe6b6'], motif: 'lanternCup' }
+};
 
 const LETTER_RULES = {
   IR: ['I', 'R'],
@@ -292,14 +315,10 @@ function bindEvents() {
 }
 
 function preloadArtworks() {
-  Object.keys(PROFILES).forEach((code) => {
+  Object.keys(PROFILE_VISUALS).forEach((code) => {
     const img = new Image();
-    img.src = getArtworkPath(code);
+    img.src = generateArtworkDataUri(code);
   });
-}
-
-function getArtworkPath(code) {
-  return `assets/posters/${code}.svg`;
 }
 
 function startQuiz() {
@@ -386,7 +405,36 @@ function renderQuestion() {
   els.prevBtn.disabled = state.currentIndex === 0;
 }
 
-function finishQuiz() {
+
+async function saveQuizResult(result) {
+  try {
+    const payload = {
+      app_name: 'Y-MAP',
+      result_code: result.code,
+      result_title: result.profile.title,
+      answers: state.answers,
+      source: 'web',
+      user_agent: navigator.userAgent,
+      completed: true
+    };
+
+    const { error } = await supabaseClient
+      .from('quiz_results')
+      .insert(payload);
+
+    if (error) {
+      console.error('Supabase 保存失败：', error);
+      return false;
+    }
+
+    return true;
+  } catch (err) {
+    console.error('提交结果异常：', err);
+    return false;
+  }
+}
+
+async function finishQuiz() {
   clearPendingTimer();
 
   const scores = { IR: 0, DA: 0, MS: 0, PC: 0 };
@@ -408,6 +456,8 @@ function finishQuiz() {
     profile: PROFILES[code]
   };
 
+  await saveQuizResult(state.result);
+
   renderResult();
   switchView('resultView');
 }
@@ -420,7 +470,7 @@ function renderResult() {
   els.resultTitle.textContent = profile.title;
   els.resultPortrait.textContent = profile.portrait;
   els.resultEcho.textContent = profile.echo;
-  els.resultArtwork.src = getArtworkPath(code);
+  els.resultArtwork.src = generateArtworkDataUri(code);
   els.resultArtwork.alt = `${profile.title} 的视觉海报`;
 }
 
@@ -493,5 +543,222 @@ function clearPendingTimer() {
   if (state.autoTimer) {
     window.clearTimeout(state.autoTimer);
     state.autoTimer = null;
+  }
+}
+
+function generateArtworkDataUri(code) {
+  const visual = PROFILE_VISUALS[code] || PROFILE_VISUALS.RASC;
+  const [c1, c2, c3] = visual.colors;
+  const motif = buildMotif(visual.motif, c1, c2, c3);
+
+  const svg = `
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-label="${code}">
+    <defs>
+      <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="#0d1320"/>
+        <stop offset="52%" stop-color="#121c2d"/>
+        <stop offset="100%" stop-color="#0b1018"/>
+      </linearGradient>
+      <radialGradient id="glowA" cx="35%" cy="26%" r="55%">
+        <stop offset="0%" stop-color="${c1}" stop-opacity="0.42"/>
+        <stop offset="100%" stop-color="${c1}" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glowB" cx="72%" cy="74%" r="48%">
+        <stop offset="0%" stop-color="${c2}" stop-opacity="0.3"/>
+        <stop offset="100%" stop-color="${c2}" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+        <stop offset="0%" stop-color="${c1}"/>
+        <stop offset="50%" stop-color="${c2}"/>
+        <stop offset="100%" stop-color="${c3}"/>
+      </linearGradient>
+      <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="28"/>
+      </filter>
+    </defs>
+
+    <rect width="1200" height="1500" rx="64" fill="url(#bg)"/>
+    <rect x="34" y="34" width="1132" height="1432" rx="42" fill="none" stroke="rgba(255,255,255,0.10)"/>
+
+    <circle cx="360" cy="320" r="340" fill="url(#glowA)" filter="url(#blur)"/>
+    <circle cx="860" cy="1110" r="290" fill="url(#glowB)" filter="url(#blur)"/>
+
+    <g opacity="0.12">
+      <path d="M120 180 H1080" stroke="white"/>
+      <path d="M120 430 H1080" stroke="white"/>
+      <path d="M120 680 H1080" stroke="white"/>
+      <path d="M120 930 H1080" stroke="white"/>
+      <path d="M120 1180 H1080" stroke="white"/>
+      <path d="M120 1330 H1080" stroke="white"/>
+      <path d="M190 120 V1380" stroke="white"/>
+      <path d="M420 120 V1380" stroke="white"/>
+      <path d="M650 120 V1380" stroke="white"/>
+      <path d="M880 120 V1380" stroke="white"/>
+    </g>
+
+    <g opacity="0.16">
+      <circle cx="600" cy="750" r="410" fill="none" stroke="white"/>
+      <circle cx="600" cy="750" r="300" fill="none" stroke="white"/>
+      <circle cx="600" cy="750" r="190" fill="none" stroke="white"/>
+    </g>
+
+    ${motif}
+
+    <g opacity="0.3">
+      <circle cx="220" cy="1260" r="6" fill="${c3}"/>
+      <circle cx="980" cy="250" r="8" fill="${c2}"/>
+      <circle cx="910" cy="1310" r="5" fill="${c1}"/>
+      <circle cx="280" cy="220" r="4" fill="white"/>
+    </g>
+  </svg>`;
+
+  return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
+
+function buildMotif(motif, c1, c2, c3) {
+  const commonCore = `<circle cx="600" cy="750" r="28" fill="url(#accent)"/>`;
+
+  switch (motif) {
+    case 'starPath':
+      return `
+        <path d="M310 1080 C430 880, 500 760, 600 750 C725 735, 790 560, 900 360" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+        <polygon points="600,330 645,445 770,455 672,535 705,655 600,590 495,655 528,535 430,455 555,445" fill="none" stroke="url(#accent)" stroke-width="16"/>
+        <circle cx="600" cy="750" r="120" fill="none" stroke="${c3}" stroke-opacity="0.45" stroke-width="8"/>
+        ${commonCore}
+      `;
+    case 'swordShield':
+      return `
+        <path d="M600 320 L650 420 L620 830 L580 830 L550 420 Z" fill="url(#accent)"/>
+        <rect x="530" y="820" width="140" height="26" rx="13" fill="${c3}"/>
+        <path d="M600 860 L645 980 L600 1125 L555 980 Z" fill="${c2}"/>
+        <path d="M420 520 C420 420, 500 360, 600 360 C700 360, 780 420, 780 520 V700 C780 865, 690 985, 600 1040 C510 985, 420 865, 420 700 Z" fill="none" stroke="url(#accent)" stroke-width="18"/>
+        ${commonCore}
+      `;
+    case 'dreamTower':
+      return `
+        <path d="M455 1110 L600 360 L745 1110 Z" fill="none" stroke="url(#accent)" stroke-width="16"/>
+        <path d="M505 980 H695" stroke="${c3}" stroke-width="12"/>
+        <path d="M525 860 H675" stroke="${c2}" stroke-width="10"/>
+        <path d="M545 740 H655" stroke="${c3}" stroke-width="9"/>
+        <circle cx="810" cy="460" r="82" fill="none" stroke="${c2}" stroke-width="14"/>
+        <circle cx="838" cy="430" r="10" fill="${c3}"/>
+        ${commonCore}
+      `;
+    case 'windowCat':
+      return `
+        <rect x="380" y="400" width="440" height="640" rx="34" fill="none" stroke="url(#accent)" stroke-width="18"/>
+        <path d="M600 400 V1040" stroke="${c2}" stroke-width="10"/>
+        <path d="M380 720 H820" stroke="${c2}" stroke-width="10"/>
+        <path d="M490 1030 C490 940, 545 900, 600 900 C655 900, 710 940, 710 1030" fill="none" stroke="${c3}" stroke-width="14"/>
+        <path d="M548 892 L572 852 L590 892" fill="${c3}"/>
+        <path d="M610 892 L628 852 L652 892" fill="${c3}"/>
+        ${commonCore}
+      `;
+    case 'sailWind':
+      return `
+        <path d="M410 1085 C530 960, 660 870, 790 822" fill="none" stroke="${c3}" stroke-width="12" stroke-linecap="round"/>
+        <path d="M600 430 V1040" stroke="url(#accent)" stroke-width="12"/>
+        <path d="M600 460 C470 560, 450 705, 600 790 Z" fill="url(#accent)" fill-opacity="0.75"/>
+        <path d="M600 540 C725 610, 765 730, 600 860 Z" fill="none" stroke="${c2}" stroke-width="16"/>
+        <path d="M300 620 C380 590, 430 590, 515 620" fill="none" stroke="${c1}" stroke-width="10" stroke-linecap="round"/>
+        <path d="M290 720 C390 680, 500 680, 610 720" fill="none" stroke="${c2}" stroke-width="10" stroke-linecap="round"/>
+        ${commonCore}
+      `;
+    case 'broadcastBridge':
+      return `
+        <path d="M320 980 Q600 600 880 980" fill="none" stroke="url(#accent)" stroke-width="18"/>
+        <path d="M600 380 V790" stroke="${c3}" stroke-width="14"/>
+        <circle cx="600" cy="340" r="36" fill="url(#accent)"/>
+        <path d="M600 340 m-120 0 a120 120 0 1 0 240 0 a120 120 0 1 0 -240 0" fill="none" stroke="${c2}" stroke-width="12"/>
+        <path d="M600 340 m-200 0 a200 200 0 1 0 400 0 a200 200 0 1 0 -400 0" fill="none" stroke="${c1}" stroke-width="10" stroke-opacity="0.8"/>
+        ${commonCore}
+      `;
+    case 'compassTrail':
+      return `
+        <circle cx="600" cy="750" r="220" fill="none" stroke="url(#accent)" stroke-width="16"/>
+        <path d="M600 470 L640 710 L820 750 L640 790 L600 1030 L560 790 L380 750 L560 710 Z" fill="none" stroke="${c2}" stroke-width="14"/>
+        <path d="M260 1110 C340 980, 435 905, 600 830" fill="none" stroke="${c3}" stroke-width="12" stroke-linecap="round"/>
+        ${commonCore}
+      `;
+    case 'gardenRoom':
+      return `
+        <rect x="380" y="460" width="440" height="500" rx="42" fill="none" stroke="url(#accent)" stroke-width="18"/>
+        <path d="M600 460 V960" stroke="${c2}" stroke-width="10"/>
+        <path d="M380 710 H820" stroke="${c2}" stroke-width="10"/>
+        <path d="M470 1110 C520 1020, 580 1000, 600 930 C620 1000, 680 1020, 730 1110" fill="none" stroke="${c3}" stroke-width="14"/>
+        <circle cx="470" cy="1108" r="18" fill="${c3}"/>
+        <circle cx="730" cy="1108" r="18" fill="${c3}"/>
+        ${commonCore}
+      `;
+    case 'anvilBeacon':
+      return `
+        <path d="M430 980 H770 L820 1090 H380 Z" fill="none" stroke="url(#accent)" stroke-width="18"/>
+        <path d="M460 760 H760" stroke="${c2}" stroke-width="18" stroke-linecap="round"/>
+        <path d="M520 620 C560 560, 640 560, 680 620" fill="none" stroke="${c3}" stroke-width="14"/>
+        <path d="M600 360 V660" stroke="url(#accent)" stroke-width="12"/>
+        <path d="M565 400 L600 340 L635 400" fill="${c1}"/>
+        ${commonCore}
+      `;
+    case 'pillarAnchor':
+      return `
+        <rect x="520" y="360" width="160" height="620" rx="24" fill="none" stroke="url(#accent)" stroke-width="18"/>
+        <path d="M460 430 H740" stroke="${c2}" stroke-width="14"/>
+        <path d="M460 910 H740" stroke="${c2}" stroke-width="14"/>
+        <path d="M600 980 V1160" stroke="${c3}" stroke-width="14"/>
+        <path d="M490 1120 C530 1160, 555 1180, 600 1180 C645 1180, 670 1160, 710 1120" fill="none" stroke="${c3}" stroke-width="14"/>
+        ${commonCore}
+      `;
+    case 'craftHome':
+      return `
+        <path d="M360 850 L600 540 L840 850 V1080 H360 Z" fill="none" stroke="url(#accent)" stroke-width="18"/>
+        <rect x="535" y="900" width="130" height="180" rx="18" fill="none" stroke="${c2}" stroke-width="12"/>
+        <path d="M320 430 L450 560" stroke="${c3}" stroke-width="16" stroke-linecap="round"/>
+        <path d="M390 400 L490 500" stroke="${c3}" stroke-width="8" stroke-linecap="round"/>
+        ${commonCore}
+      `;
+    case 'nestHouse':
+      return `
+        <path d="M360 900 C430 830, 500 790, 600 790 C700 790, 770 830, 840 900" fill="none" stroke="url(#accent)" stroke-width="16"/>
+        <path d="M400 960 C470 900, 530 870, 600 870 C670 870, 730 900, 800 960" fill="none" stroke="${c2}" stroke-width="12"/>
+        <path d="M450 1080 L600 900 L750 1080 Z" fill="none" stroke="${c3}" stroke-width="16"/>
+        <rect x="550" y="1010" width="100" height="130" rx="14" fill="none" stroke="${c3}" stroke-width="10"/>
+        ${commonCore}
+      `;
+    case 'radarGrid':
+      return `
+        <path d="M340 1110 L600 390 L860 1110" fill="none" stroke="url(#accent)" stroke-width="18"/>
+        <path d="M600 390 V1110" stroke="${c2}" stroke-width="10"/>
+        <path d="M420 900 H780" stroke="${c3}" stroke-width="10"/>
+        <circle cx="720" cy="640" r="24" fill="${c2}"/>
+        <circle cx="720" cy="640" r="74" fill="none" stroke="${c1}" stroke-width="10"/>
+        ${commonCore}
+      `;
+    case 'stepsFlow':
+      return `
+        <path d="M330 1020 H470 V880 H610 V740 H750 V600 H890" fill="none" stroke="url(#accent)" stroke-width="18" stroke-linejoin="round"/>
+        <path d="M780 560 L900 590 L850 700" fill="none" stroke="${c2}" stroke-width="16" stroke-linejoin="round"/>
+        <circle cx="470" cy="880" r="18" fill="${c3}"/>
+        <circle cx="610" cy="740" r="18" fill="${c3}"/>
+        <circle cx="750" cy="600" r="18" fill="${c3}"/>
+        ${commonCore}
+      `;
+    case 'kiteRoute':
+      return `
+        <path d="M300 1080 C380 1040, 460 960, 520 840 C590 700, 700 580, 850 480" fill="none" stroke="url(#accent)" stroke-width="12" stroke-linecap="round"/>
+        <polygon points="850,480 930,560 850,640 770,560" fill="none" stroke="${c2}" stroke-width="16"/>
+        <path d="M520 840 L470 930" stroke="${c3}" stroke-width="10"/>
+        <path d="M470 930 L520 995" stroke="${c3}" stroke-width="10"/>
+        ${commonCore}
+      `;
+    case 'lanternCup':
+      return `
+        <path d="M600 430 C530 430, 480 490, 480 570 C480 680, 540 760, 600 840 C660 760, 720 680, 720 570 C720 490, 670 430, 600 430 Z" fill="none" stroke="url(#accent)" stroke-width="18"/>
+        <path d="M500 1040 H700" stroke="${c3}" stroke-width="16" stroke-linecap="round"/>
+        <path d="M540 1040 C540 1110, 585 1160, 650 1160" fill="none" stroke="${c2}" stroke-width="12" stroke-linecap="round"/>
+        <path d="M600 360 V430" stroke="${c2}" stroke-width="12"/>
+        ${commonCore}
+      `;
+    default:
+      return `<circle cx="600" cy="750" r="180" fill="none" stroke="url(#accent)" stroke-width="18"/>${commonCore}`;
   }
 }
